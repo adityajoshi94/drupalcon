@@ -1,0 +1,9 @@
+teps:
+  - name: Probo site setup
+      plugin: Drupal
+          makeFile: build-bear.make
+              installArgs: "--site-name='Install Profile Drupal Plugin Demo'"
+                  clearCaches: true
+                      profileName: standard
+                          runInstall: true
+                              revertFeatures: true
